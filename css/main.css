@@ -67,24 +67,19 @@ a:hover { text-decoration: none; }
     background-color: rgba(158, 69, 154, .7);
     text-shadow: 0 0 10px rgba(0,0,0,1);
 }
-.main_mnu_button {
-    width: 100px;
-    height: 20px;
-    background-color: #fff;
-}
 
-/*Y
-Навигация под хедером*/
-.logo-middle {
+/* Навигация под хедером */
+.logo_middle {
     font: bold 24pt Existence-Light, sans-serif;
     color: #676767;
     transition: text-shadow 1s;
 }
-.logo-middle span { color: #9f449b; }
-.logo-middle:hover {
+.logo_middle span { color: #9f449b; }
+.logo_middle:hover {
     color: #676767;
     text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
+.navigation { text-align: center; }
 .navigation li {
     display: inline-block;
     font: bold 13pt Lato-Light, sans-serif;
@@ -99,3 +94,41 @@ a:hover { text-decoration: none; }
 .wrapper_menu {
     line-height: 142px;
 }
+/* 4 блока под навигацией */
+.content_box {
+    text-align: center;
+    height: 794px;
+    background: #eeeeee;
+}
+.wrap_cont_box { margin: 168px 0; }
+.content_box a {
+    width: 262px;
+    height: 402px;
+    color: #676767;
+    background-color: #e9aee6;
+}
+.wrap_cont_box .fa {
+    font-size: 53pt;
+    color: #ccd0d2;
+    width: 262px;
+    height: 402px;
+    position: absolute;
+    right: -52px;
+    padding-top: 52px;
+    transition: color 1s;
+}
+.icon_middle {
+    width: 167px;
+    height: 167px;
+    border: 3px solid #ccd0d2;
+    margin-left: 40px;
+    margin-bottom: 45px;
+    position: relative;
+    transition: border 1s;
+    border-radius: 100px;
+}
+.wrap_cont_box h4 { font: bold 19pt Lato-Light, sans-serif; }
+.wrap_cont_box p { font: bold 12pt/2 Lato-Light, sans-serif; }
+
+.wrap_cont_box .fa:hover { color: #a957a5; }
+.icon_middle:hover { border: 3px solid #a957a5; }
