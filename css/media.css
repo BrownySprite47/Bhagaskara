@@ -4,7 +4,7 @@
 @media only screen and (max-width : 1200px) {
     .navbar { min-height: 80px; }
     .logo_middle, .nav li a { line-height: 49px; }
-    .wrap_cont_box { margin: 28px 0; }
+    .wrap_cont_box { margin: 50px 0; }
     .top_nav { display: none; }
 }
 
@@ -13,6 +13,10 @@
     .top_background h1 { font-size: 85px; }
     .top_background h2 { font-size: 55px; }
     .sm_head_nav { padding-bottom: 20px; }
+    .about_btn { margin: 20px auto 50px auto; }
+    .title { margin: 50px auto; }
+    .wrap_about img { padding-bottom: 20px; }
+    .about_us_text p { text-align: center; }
 }
 
 /* Small Devices, Tablets */
@@ -35,6 +39,10 @@
         margin-top: 72px;
     }
     .top_background h2 { font-size: 9vw; }
+    .title {
+        max-width: 300px;
+        margin: 20px auto 50px auto;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -71,9 +79,14 @@
 @media only screen and (min-width : 992px) {
     .top_nav {
         display: inline-block;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .sm_head_nav { margin-bottom: 40px; }
+    .about_btn { margin: 18px 0 100px 0; }
+    .about_us_text p {
+        text-align: left;
+        padding-top: 0;
+    }
 }
 
 /* Large Devices, Wide Screens */
