@@ -4,11 +4,12 @@
 }
 ul li { list-style-type: none; }
 a:hover { text-decoration: none; }
+a { text-decoration: none; }
 /*Хедер*/
 .top_background {
     background: url(../images/bg-top.png) no-repeat 50% 50%;
     text-align: center;
-    height: 1100px;
+    height: 100%;
     color: #fff;
 }
 .top_background a { color: #fff; }
@@ -31,6 +32,7 @@ a:hover { text-decoration: none; }
     height: 165px;
     display: inline-block;
     border-radius: 100px;
+    background-color: rgba(255,255,255,.15);
     transition: border 1s, background-color 1s;
     margin-bottom: 30px;
 }
@@ -48,7 +50,7 @@ a:hover { text-decoration: none; }
     padding: 12px 0;
 }
 .margin_icon_top { margin-top: 206px; }
-.sm-head-nav {
+.sm_head_nav {
     width: 86px;
     height: 86px;
     border: 3px solid #fff;
@@ -56,9 +58,10 @@ a:hover { text-decoration: none; }
     font-size: 52px;
     display: inline-block;
     border-radius: 100px;
+    background-color: rgba(255,255,255,.15);
     transition: border 1s, background-color 1s;
 }
-.sm-head-nav:hover {
+.sm_head_nav:hover {
     border: 3px solid rgba(158, 69, 154, .7);
     background-color: rgba(158, 69, 154, .7);
     text-shadow: 0 0 10px rgba(0,0,0,1);
@@ -70,6 +73,7 @@ a:hover { text-decoration: none; }
     min-height: 142px;
     margin-bottom: 0;
     border: none;
+    background-color: #fff;
 }
 .logo_middle {
     font: bold 24pt Existence-Light, sans-serif;
@@ -96,10 +100,16 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
 /* 4 блока под навигацией */
 .content_box {
     text-align: center;
-    height: 794px;
+    height: 100%;
     background: #eeeeee;
+    width: 100%;
 }
-.wrap_cont_box { margin: 168px 0; }
+.wrap_cont_box {
+    margin: 168px 0;
+    width: 262px;
+    height: 402px;
+    display: inline-block;
+}
 .content_box a {
     width: 262px;
     height: 402px;
@@ -119,7 +129,7 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     width: 167px;
     height: 167px;
     border: 3px solid #ccd0d2;
-    margin-left: 40px;
+    margin-left: 46px;
     margin-bottom: 45px;
     position: relative;
     transition: border 1s;

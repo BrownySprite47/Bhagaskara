@@ -2,21 +2,30 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .navbar { min-height: 80px; }
+    .logo_middle, .nav li a { line-height: 49px; }
+    .wrap_cont_box { margin: 28px 0; }
+    .top_nav { display: none; }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .top_background h1 { font-size: 85px; }
     .top_background h2 { font-size: 55px; }
+    .sm_head_nav { padding-bottom: 20px; }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .top_background h1 { font-size: 72px; }
-    .top_background h2 { font-size: 43px; }
+    .top_background h2 {
+        font-size: 43px;
+        padding-bottom: 20px;
+    }
     .top_background h3 { display: none; }
-    .top_background { max-height: 480px; }
+    .navbar { min-height: 50px; }
+    .logo_middle, .nav li a { line-height: 22px; }
+    .navbar-nav li { display: block; }
 }
 
 /* Extra Small Devices, Phones */
@@ -30,7 +39,7 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    .top_background { max-height: 380px; }
+
 }
 
 
@@ -48,17 +57,33 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
     .margin_icon_top { margin-top: 0; }
-    .top_background h3 { display: inline-block; }
-    .top_background { max-height: 1100px; }
+    .top_background h3 {
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+    .navbar-header { display: none; }
+    .navbar-nav li { display: inline-block; }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+    .top_nav {
+        display: inline-block;
+        padding-top: 50px;
+    }
+    .sm_head_nav { margin-bottom: 40px; }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     .margin_icon_top { margin-top: 206px; }
+    .navbar-header { display: inline-block; }
+    .navbar { min-height: 142px; }
+    .logo_middle, .nav li a {
+        line-height: 109px;
+        padding-left: 20px;
+    }
+    .wrap_cont_box { margin: 168px 0; }
 }
