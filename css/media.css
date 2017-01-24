@@ -4,7 +4,7 @@
 @media only screen and (max-width : 1200px) {
     .navbar { min-height: 80px; }
     .logo_middle, .nav li a { line-height: 49px; }
-    .wrap_cont_box { margin: 50px 0; }
+    .wrap_cont_box { margin: 50px 0 0 0; }
     .top_nav { display: none; }
 }
 
@@ -17,6 +17,11 @@
     .title { margin: 50px auto; }
     .wrap_about img { padding-bottom: 20px; }
     .about_us_text p { text-align: center; }
+    .between_bg p {
+        font: 39px Lato-Light, sans-serif;
+        padding: 25px 0 59px 0;
+    }
+    .between_bg .icon_middle { margin: 50px auto 20px auto; }
 }
 
 /* Small Devices, Tablets */
@@ -85,7 +90,13 @@
     .about_btn { margin: 18px 0 100px 0; }
     .about_us_text p {
         text-align: left;
-        padding-top: 0;
+        padding-top: 53px;
+    }
+    .between_bg p {
+        font: 51px Lato-Light, sans-serif;
+        text-align: center;
+        color: #fff;
+        padding: 40px 0 130px 0;
     }
 }
 

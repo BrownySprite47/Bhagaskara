@@ -23,6 +23,27 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/responsiveCarousel.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.crsl-items').carousel({
+                visible: 3,
+                itemMinWidth: 200,
+                itemEqualHeight: 370,
+                itemMargin: 30,
+            });
+            $("a[href=#]").on('click', function(e) {
+                e.preventDefault();
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="top_background">
@@ -152,22 +173,111 @@
                 <div class="title">
                     <p>About <span>us</span></p>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 about">
                     <img src="images/mockup.png" alt="mockup">
                 </div>
                 <div class="about_us_text col-md-5">
                     <p> Aliquam metus neque, bibendum sit amet porta at, consequat et enim. In ut turpis non ipsum rhoncus porttitor vel ac nunc.  Maecenas interdum dignissim lorem quis auctor. Donec sit amet nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et enim rutrum adipiscing. Quisque tincidunt mattis sapien, vel posuere.</p>
-                    <a href="#"><div class="about_btn">Learn more</div></a>
+                    <div class="about_btn"><a href="#">Learn more</a></div>
                 </div>
 
             </div>
         </div>
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <div class="between_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="icon_middle"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                    <p>We lorem and ipsum your aliquam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <p>Our <span>team</span></p>
+                </div>
+                <div id="w">
+                    <nav class="slidernav">
+                        <div id="navbtns" class="clearfix">
+                            <a href="#" class="previous">
+                                <div class="sm-team-nav prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                            </a>
+                            <a href="#" class="next">
+                                <div class="sm-team-nav next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="crsl-items" data-navigation="navbtns">
+                        <div class="crsl-wrap">
+                            <div class="crsl-item">
+                                <img src="images/1.jpg">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/2.png">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/3.jpeg">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/4.jpg">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/5.jpg">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="crsl-item">
+                                <img src="images/6.jpg">
+                                <p>Anne Hathaway<br><span>CEO / Marketing Guru</span></p>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="social-btn-team">
+                                    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

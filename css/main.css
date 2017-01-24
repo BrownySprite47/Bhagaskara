@@ -19,6 +19,7 @@ a { text-decoration: none; }
     letter-spacing: 1px;
     transition: text-shadow 1s;
 }
+.top_background h1:hover { text-shadow: 0 0 10px rgba(0,0,0,0.7); }
 .top_background span { color: #9f449b; }
 .top_background h2 {
     font: bold 48px Lato-Hairline, sans-serif;
@@ -125,7 +126,7 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     padding-top: 52px;
     transition: color 1s;
 }
-.icon_middle {
+.wrap_cont_box .icon_middle {
     width: 167px;
     height: 167px;
     border: 3px solid #ccd0d2;
@@ -138,12 +139,12 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
 .wrap_cont_box h4 { font: bold 19pt Lato-Light, sans-serif; }
 .wrap_cont_box p { font: bold 12pt/2 Lato-Light, sans-serif; }
 .wrap_cont_box .fa:hover { color: #a957a5; }
-.icon_middle:hover { border: 3px solid #a957a5; }
+.wrap_cont_box .icon_middle:hover { border: 3px solid #a957a5; }
 /* Заголовки */
 .title {
     font: bold 37pt Existence-Light, sans-serif;
     color: #676767;
-    margin: 110px auto;
+    margin: 110px auto 50px auto;
     text-align: center;
     max-width: 366px;
     height: 114px;
@@ -153,6 +154,9 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
 }
 .title span { color: #9f449b; }
 /* Блок "About us" */
+.about {
+    margin-top: 60px;
+}
 .wrap_about { height: 100%; }
 .wrap_about img {
     padding-bottom: 100px;
@@ -174,9 +178,110 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     border-radius: 8px;
     transition: background-color 1s;
 }
-a .about_btn {
+.about_btn a {
     font: bold 21px Lato-Light, sans-serif;
     color: #fff;
     line-height: 70px;
+    display: block;
 }
 .about_btn:hover { background-color: #7f357c; }
+
+
+/**/
+.between_bg {
+    background: url(../images/above-bg.png) no-repeat 50% 50%;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+.between_bg p {
+    font: 51px Lato-Light, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0 130px 0;
+}
+.between_bg .fa {
+    font-size: 53pt;
+    color: #fff;
+    padding-top: 52px;
+}
+.between_bg .icon_middle {
+    margin: 100px auto 20px auto;
+    color: #fff;
+    border: 3px solid #ccd0d2;
+    width: 167px;
+    height: 167px;
+    border-radius: 100px;
+}
+/*Team*/
+.team {
+    background-color: #eee;
+    height: 100%;
+}
+.crsl-item {
+    text-align: center;
+    background: #fff;
+    height: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.crsl-item img {
+    border-radius: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    max-width: 100%;
+}
+.slidernav {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.slidernav a {
+    display: inline-block;
+}
+.social-btn-team {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #484848;
+    border-radius: 50px;
+    transition: box-shadow 1s;
+    margin: 30px 10px;
+}
+.social-btn-team a {
+    color: #484848;
+    font-size: 30px;
+    line-height: 47px;
+}
+.social-btn-team:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+.crsl-item > p {
+    font: bold 24px Lato-Light, sans-serif;
+    color: #484848;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.crsl-item > p span {
+    font: bold 15px Lato-Light, sans-serif;
+    color: #777777;
+    text-transform: none;
+}
+.sm-team-nav {
+    margin: 0 8px;
+}
+.sm-team-nav .fa {
+    color: #a957a5;
+    font-size: 49px;
+    line-height: 57px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #a957a5;
+    display: inline-block;
+    border-radius: 100px;
+    transition: box-shadow .5s;
+}
+.sm-team-nav .fa:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
