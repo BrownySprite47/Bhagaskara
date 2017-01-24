@@ -211,73 +211,30 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     height: 167px;
     border-radius: 100px;
 }
-/*Team*/
+/*Team и слайдер Amazing Carousel*/
 .team {
     background-color: #eee;
     height: 100%;
 }
-.crsl-item {
-    text-align: center;
-    background: #fff;
-    height: 100%;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+#amazingcarousel-1 .amazingcarousel-image img {
+    width: 252px !important;
+    height: 252px !important;
+    border-radius: 300px !important;
 }
-.crsl-item img {
-    border-radius: 300px;
-    padding: 10px;
-    margin-top: 30px;
-    max-width: 100%;
+#amazingcarousel-1 .amazingcarousel-next {
+    margin-right: -50px !important;
 }
-.slidernav {
-    display: block;
-    text-align: center;
-    margin-bottom: 50px;
+#amazingcarousel-1 .amazingcarousel-prev {
+    margin-left: -50px !important;
 }
-.slidernav a { display: inline-block; }
-.social-btn-team {
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    border: 1px solid #484848;
-    border-radius: 50px;
-    transition: box-shadow 1s;
-    margin: 30px 10px;
+#amazingcarousel-container-1 {
+    padding: 10px 10px 128px 10px !important;
 }
-.social-btn-team a {
-    color: #484848;
-    font-size: 30px;
-    line-height: 47px;
+#amazingcarousel-1 blockquote {
+    font: bold 24px Lato-Light, sans-serif !important;
+    color: #484848 !important;
 }
-.social-btn-team:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
-}
-.crsl-item > p {
-    font: bold 24px Lato-Light, sans-serif;
-    color: #484848;
-    text-transform: uppercase;
-    padding: 1em;
-}
-.crsl-item > p span {
-    font: bold 15px Lato-Light, sans-serif;
-    color: #777777;
-    text-transform: none;
-}
-.sm-team-nav {
-    margin: 0 8px;
-}
-.sm-team-nav .fa {
-    color: #a957a5;
-    font-size: 49px;
-    line-height: 57px;
-    width: 60px;
-    height: 60px;
-    border: 3px solid #a957a5;
-    display: inline-block;
-    border-radius: 100px;
-    transition: box-shadow .5s;
-}
-.sm-team-nav .fa:hover { box-shadow: 0 0 10px rgba(0,0,0,0.9); }
+
 /*Scills*/
 .box-scills {
     padding-bottom: 68px;
@@ -306,3 +263,6 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     color: #777;
     font: 26px Myriad Pro, sans-serif;
 }
+
+
+
