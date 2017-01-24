@@ -234,6 +234,49 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     font: bold 24px Lato-Light, sans-serif !important;
     color: #484848 !important;
 }
+.social-btn-team {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #484848;
+    border-radius: 50px;
+    transition: box-shadow 1s;
+    margin: 30px 10px;
+}
+.social-btn-team a {
+    color: #484848;
+    font-size: 30px;
+    line-height: 47px;
+}
+.social-btn-team:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+.crsl-item > p {
+    font: bold 24px Lato-Light, sans-serif;
+    color: #484848;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.crsl-item > p span {
+    font: bold 15px Lato-Light, sans-serif;
+    color: #777777;
+    text-transform: none;
+}
+.sm-team-nav {
+    margin: 0 8px;
+}
+.sm-team-nav .fa {
+    color: #a957a5;
+    font-size: 49px;
+    line-height: 57px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #a957a5;
+    display: inline-block;
+    border-radius: 100px;
+    transition: box-shadow .5s;
+}
+.sm-team-nav .fa:hover { box-shadow: 0 0 10px rgba(0,0,0,0.9); }
 
 /*Scills*/
 .box-scills {
@@ -262,6 +305,22 @@ button.navbar-toggle, .nav li a { line-height: 142px; }
     right: 15px;
     color: #777;
     font: 26px Myriad Pro, sans-serif;
+}
+/*Services*/
+.portfolio {
+    background-color: #eee;
+    height: 100%;
+    text-align: center;
+}
+.portfolio_box {
+    font: 46pt HelveticaNeueLTStd-Lt, sans-serif;
+    color: #222;
+    line-height: 39px;
+    padding: 28px 0;
+}
+.portfolio_box span {
+    font: bold 11pt HelveticaNeueLTStd-Lt, sans-serif;
+    color: #777;
 }
 
 
